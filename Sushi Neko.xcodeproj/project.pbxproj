@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A892D712378B9EF00295FEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A892D702378B9EF00295FEF /* AppDelegate.swift */; };
+		6A892D732378B9EF00295FEF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6A892D722378B9EF00295FEF /* GameScene.sks */; };
+		6A892D752378B9EF00295FEF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6A892D742378B9EF00295FEF /* Actions.sks */; };
+		6A892D772378B9EF00295FEF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A892D762378B9EF00295FEF /* GameScene.swift */; };
+		6A892D792378B9EF00295FEF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A892D782378B9EF00295FEF /* GameViewController.swift */; };
+		6A892D7C2378B9EF00295FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A892D7A2378B9EF00295FEF /* Main.storyboard */; };
+		6A892D7E2378B9F100295FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A892D7D2378B9F100295FEF /* Assets.xcassets */; };
+		6A892D812378B9F100295FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A892D7F2378B9F100295FEF /* LaunchScreen.storyboard */; };
+		6A892D8C2378B9F100295FEF /* Sushi_NekoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A892D8B2378B9F100295FEF /* Sushi_NekoTests.swift */; };
+		6A892D972378B9F200295FEF /* Sushi_NekoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A892D962378B9F200295FEF /* Sushi_NekoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A892D882378B9F100295FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A892D652378B9EF00295FEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A892D6C2378B9EF00295FEF;
+			remoteInfo = "Sushi Neko";
+		};
+		6A892D932378B9F200295FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A892D652378B9EF00295FEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A892D6C2378B9EF00295FEF;
+			remoteInfo = "Sushi Neko";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A892D6D2378B9EF00295FEF /* Sushi Neko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sushi Neko.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A892D702378B9EF00295FEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A892D722378B9EF00295FEF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6A892D742378B9EF00295FEF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		6A892D762378B9EF00295FEF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6A892D782378B9EF00295FEF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6A892D7B2378B9EF00295FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A892D7D2378B9F100295FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A892D802378B9F100295FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A892D822378B9F100295FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A892D872378B9F100295FEF /* Sushi NekoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sushi NekoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A892D8B2378B9F100295FEF /* Sushi_NekoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi_NekoTests.swift; sourceTree = "<group>"; };
+		6A892D8D2378B9F100295FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A892D922378B9F100295FEF /* Sushi NekoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sushi NekoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A892D962378B9F200295FEF /* Sushi_NekoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi_NekoUITests.swift; sourceTree = "<group>"; };
+		6A892D982378B9F200295FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A892D6A2378B9EF00295FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A892D842378B9F100295FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A892D8F2378B9F100295FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A892D642378B9EF00295FEF = {
+			isa = PBXGroup;
+			children = (
+				6A892D6F2378B9EF00295FEF /* Sushi Neko */,
+				6A892D8A2378B9F100295FEF /* Sushi NekoTests */,
+				6A892D952378B9F200295FEF /* Sushi NekoUITests */,
+				6A892D6E2378B9EF00295FEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A892D6E2378B9EF00295FEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A892D6D2378B9EF00295FEF /* Sushi Neko.app */,
+				6A892D872378B9F100295FEF /* Sushi NekoTests.xctest */,
+				6A892D922378B9F100295FEF /* Sushi NekoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A892D6F2378B9EF00295FEF /* Sushi Neko */ = {
+			isa = PBXGroup;
+			children = (
+				6A892D702378B9EF00295FEF /* AppDelegate.swift */,
+				6A892D722378B9EF00295FEF /* GameScene.sks */,
+				6A892D742378B9EF00295FEF /* Actions.sks */,
+				6A892D762378B9EF00295FEF /* GameScene.swift */,
+				6A892D782378B9EF00295FEF /* GameViewController.swift */,
+				6A892D7A2378B9EF00295FEF /* Main.storyboard */,
+				6A892D7D2378B9F100295FEF /* Assets.xcassets */,
+				6A892D7F2378B9F100295FEF /* LaunchScreen.storyboard */,
+				6A892D822378B9F100295FEF /* Info.plist */,
+			);
+			path = "Sushi Neko";
+			sourceTree = "<group>";
+		};
+		6A892D8A2378B9F100295FEF /* Sushi NekoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A892D8B2378B9F100295FEF /* Sushi_NekoTests.swift */,
+				6A892D8D2378B9F100295FEF /* Info.plist */,
+			);
+			path = "Sushi NekoTests";
+			sourceTree = "<group>";
+		};
+		6A892D952378B9F200295FEF /* Sushi NekoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A892D962378B9F200295FEF /* Sushi_NekoUITests.swift */,
+				6A892D982378B9F200295FEF /* Info.plist */,
+			);
+			path = "Sushi NekoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A892D6C2378B9EF00295FEF /* Sushi Neko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A892D9B2378B9F200295FEF /* Build configuration list for PBXNativeTarget "Sushi Neko" */;
+			buildPhases = (
+				6A892D692378B9EF00295FEF /* Sources */,
+				6A892D6A2378B9EF00295FEF /* Frameworks */,
+				6A892D6B2378B9EF00295FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sushi Neko";
+			productName = "Sushi Neko";
+			productReference = 6A892D6D2378B9EF00295FEF /* Sushi Neko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A892D862378B9F100295FEF /* Sushi NekoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A892D9E2378B9F200295FEF /* Build configuration list for PBXNativeTarget "Sushi NekoTests" */;
+			buildPhases = (
+				6A892D832378B9F100295FEF /* Sources */,
+				6A892D842378B9F100295FEF /* Frameworks */,
+				6A892D852378B9F100295FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A892D892378B9F100295FEF /* PBXTargetDependency */,
+			);
+			name = "Sushi NekoTests";
+			productName = "Sushi NekoTests";
+			productReference = 6A892D872378B9F100295FEF /* Sushi NekoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A892D912378B9F100295FEF /* Sushi NekoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A892DA12378B9F200295FEF /* Build configuration list for PBXNativeTarget "Sushi NekoUITests" */;
+			buildPhases = (
+				6A892D8E2378B9F100295FEF /* Sources */,
+				6A892D8F2378B9F100295FEF /* Frameworks */,
+				6A892D902378B9F100295FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A892D942378B9F200295FEF /* PBXTargetDependency */,
+			);
+			name = "Sushi NekoUITests";
+			productName = "Sushi NekoUITests";
+			productReference = 6A892D922378B9F100295FEF /* Sushi NekoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A892D652378B9EF00295FEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Make School";
+				TargetAttributes = {
+					6A892D6C2378B9EF00295FEF = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					6A892D862378B9F100295FEF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6A892D6C2378B9EF00295FEF;
+					};
+					6A892D912378B9F100295FEF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6A892D6C2378B9EF00295FEF;
+					};
+				};
+			};
+			buildConfigurationList = 6A892D682378B9EF00295FEF /* Build configuration list for PBXProject "Sushi Neko" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A892D642378B9EF00295FEF;
+			productRefGroup = 6A892D6E2378B9EF00295FEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A892D6C2378B9EF00295FEF /* Sushi Neko */,
+				6A892D862378B9F100295FEF /* Sushi NekoTests */,
+				6A892D912378B9F100295FEF /* Sushi NekoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A892D6B2378B9EF00295FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A892D7C2378B9EF00295FEF /* Main.storyboard in Resources */,
+				6A892D732378B9EF00295FEF /* GameScene.sks in Resources */,
+				6A892D7E2378B9F100295FEF /* Assets.xcassets in Resources */,
+				6A892D812378B9F100295FEF /* LaunchScreen.storyboard in Resources */,
+				6A892D752378B9EF00295FEF /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A892D852378B9F100295FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A892D902378B9F100295FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A892D692378B9EF00295FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A892D772378B9EF00295FEF /* GameScene.swift in Sources */,
+				6A892D792378B9EF00295FEF /* GameViewController.swift in Sources */,
+				6A892D712378B9EF00295FEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A892D832378B9F100295FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A892D8C2378B9F100295FEF /* Sushi_NekoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A892D8E2378B9F100295FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A892D972378B9F200295FEF /* Sushi_NekoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A892D892378B9F100295FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A892D6C2378B9EF00295FEF /* Sushi Neko */;
+			targetProxy = 6A892D882378B9F100295FEF /* PBXContainerItemProxy */;
+		};
+		6A892D942378B9F200295FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A892D6C2378B9EF00295FEF /* Sushi Neko */;
+			targetProxy = 6A892D932378B9F200295FEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A892D7A2378B9EF00295FEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A892D7B2378B9EF00295FEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A892D7F2378B9F100295FEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A892D802378B9F100295FEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A892D992378B9F200295FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A892D9A2378B9F200295FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A892D9C2378B9F200295FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sushi Neko/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Sushi-Neko";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A892D9D2378B9F200295FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sushi Neko/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Sushi-Neko";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A892D9F2378B9F200295FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sushi NekoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Sushi-NekoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sushi Neko.app/Sushi Neko";
+			};
+			name = Debug;
+		};
+		6A892DA02378B9F200295FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sushi NekoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Sushi-NekoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sushi Neko.app/Sushi Neko";
+			};
+			name = Release;
+		};
+		6A892DA22378B9F200295FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sushi NekoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Sushi-NekoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sushi Neko";
+			};
+			name = Debug;
+		};
+		6A892DA32378B9F200295FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sushi NekoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Sushi-NekoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sushi Neko";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A892D682378B9EF00295FEF /* Build configuration list for PBXProject "Sushi Neko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A892D992378B9F200295FEF /* Debug */,
+				6A892D9A2378B9F200295FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A892D9B2378B9F200295FEF /* Build configuration list for PBXNativeTarget "Sushi Neko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A892D9C2378B9F200295FEF /* Debug */,
+				6A892D9D2378B9F200295FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A892D9E2378B9F200295FEF /* Build configuration list for PBXNativeTarget "Sushi NekoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A892D9F2378B9F200295FEF /* Debug */,
+				6A892DA02378B9F200295FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A892DA12378B9F200295FEF /* Build configuration list for PBXNativeTarget "Sushi NekoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A892DA22378B9F200295FEF /* Debug */,
+				6A892DA32378B9F200295FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A892D652378B9EF00295FEF /* Project object */;
+}
